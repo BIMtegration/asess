@@ -1,0 +1,45 @@
+p {
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3 {
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    color  :red;
+}
+.textos{
+    color  :black;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(120px, auto);
+    
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 3px;
+  }
+  .two {
+    grid-column: 2 / 6;
+    grid-row: 1 / 6;
+    border-radius: 3px;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    background-color: rgb(215, 216, 216);
+    border-radius: 3px;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 5;
+    background-color:rgb(246, 145, 145);
+    border-radius: 3px;
+  }
