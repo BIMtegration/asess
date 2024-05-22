@@ -51,7 +51,7 @@ const CARDS = [
   "img/galeria/Diapositiva22.JPG",
 ];
 const CARD_CONTAINER = document.querySelector("#cards");
-const PADDING = 0;
+const PADDING = 4;
 // Add prepadding
 for (let pre = 0; pre < PADDING; pre++) {
   const COVER_INDEX = CARDS.length - (PADDING - 1) + pre;
