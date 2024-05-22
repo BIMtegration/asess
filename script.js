@@ -1,6 +1,31 @@
 document.querySelector("#app").innerHTML = `
+<div class="one">
+    <a class="textos">
+      <p><img width= 50% src="img/logo_asess.jpg" alt=""></p>
+      <p>Nit. 900.270.912-4</p>
+      <h3>Arquitectura Corporativa</h3>
+    </a>
+</div>
+<div class="two">
+    <a class="textos">
+      <p>contacto:</p>
+      <p>info@asess.com.co</p>
+      <p><a class="link" target="_blank" href="https://sites.google.com/a/asess.com.co/intranetmobile/">intranet</a></p>
+      <h3>Fundada en 2009</h3>
+    </a>
+</div>
+<div class="three">
+    <a class="textos">
+      <p>Obras Civiles, Electricas </p>
+      <p>y Climatizacion</p>
+      <h3>Contratistas Generales</h3>
+    </a>
+</div>
+<div class="four">
     <ul id="cards"></ul>
+</div>
 `;
+
 const CARDS = [
   "img/galeria/Diapositiva1.JPG",
   "img/galeria/Diapositiva2.JPG",
