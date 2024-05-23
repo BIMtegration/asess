@@ -1,7 +1,7 @@
 document.querySelector("#app").innerHTML = `
 <div class="one">
     <a class="textos">
-      <p><img width= 50% src="img/logo_asess.jpg" alt=""></p>
+      <p><table><tr><td class="inicio" align="center" width="40px"><h1>A</h1></td><td class="inicio" align="center" width="40px"><h1>S</h1></td><td class="inicio" align="center" width="40px"><h1>É</h1></td><td class="inicio" align="center" width="40px"><h1>S</h1></td><td class="inicio" align="center" width="40px"><h1>S</h1></td></tr></table></p>
       <p>Nit. 900.270.912-4</p>
       <h3>Arquitectura Corporativa</h3>
     </a>

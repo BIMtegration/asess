@@ -35,12 +35,24 @@ h3 {
     gap: 5px;
     grid-auto-rows: minmax(auto,auto);
     border-radius: 3px;
+    justify-items: center;
   }
   .one {
     grid-column: 1;
     grid-row: 1;
     align-content: end;
-  } 
+  }
+  .inicio {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+	  border: solid white 2px;
+    background-color: #ff0000;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+    height: 30px;  
+    padding-top: 25px;
+    }
   .two {
     grid-column: 2;
     grid-row: 1;
