@@ -44,11 +44,11 @@ h3 {
   }
   .inicio {
     font-family: "ZCOOL KuaiLe", sans-serif;
-	  border: solid white 2px;
+	  border: solid white 1px;
     background-color: #ff0000;
     color:#FFFFFF;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 4px;
     height: 30px;  
     padding-top: 25px;
@@ -59,7 +59,7 @@ h3 {
     align-content: end;
   }
   .three {
-    grid-column: 3;
+    grid-column: 3; 
     grid-row: 1;
     align-content: end;
   }
