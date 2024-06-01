@@ -49,6 +49,13 @@ const CARDS = [
   "img/galeria/Diapositiva20.JPG",
   "img/galeria/Diapositiva21.JPG",
   "img/galeria/Diapositiva22.JPG",
+  "img/galeria/Diapositiva23.JPG",
+  "img/galeria/Diapositiva24.JPG",
+  "img/galeria/Diapositiva25.JPG",
+  "img/galeria/Diapositiva26.JPG",
+  "img/galeria/Diapositiva27.JPG",
+  "img/galeria/Diapositiva28.JPG",
+  "img/galeria/Diapositiva29.JPG",
 ];
 const CARD_CONTAINER = document.querySelector("#cards");
 const PADDING = 4;
