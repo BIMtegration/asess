@@ -10,7 +10,7 @@ document.querySelector("#app").innerHTML = `
     <a class="textos">
       <p>contacto:</p>
       <p>info@asess.com.co</p>
-      <p><a class="link" target="_blank" href="https://sites.google.com/a/asess.com.co/intranetmobile/">intranet</a></p>
+      <p><a class="link" target="_self" href="https://sites.google.com/a/asess.com.co/intranetmobile/">intranet</a></p>
       <h3>Fundada en 2009</h3>
     </a>
 </div>
